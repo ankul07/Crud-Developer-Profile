@@ -1,6 +1,6 @@
 import { commonRequest } from "./commonRequest";
 // const server = "https://profile-eight-iota.vercel.app";
-const server = "http://localhost:5000";
+const server = "https://crud-developer-profile.vercel.app";
 
 export const registerFunction = async (data, header) => {
   return await commonRequest("POST", `${server}/api/v1/register`, data, header);
